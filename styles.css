@@ -44,6 +44,8 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
 }
 
 /* A elements that don't have a class get default styles */
@@ -113,9 +115,10 @@ p {
 main {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     align-items: center;
     justify-content: center;
+    
 }
 .introduction {
     display: flex;
